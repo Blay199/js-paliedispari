@@ -11,9 +11,9 @@ function palindroma(){
     return word === wordRev
 }
 
-palindroma ()
+let isPalindroma = palindroma ()
 
-if (palindroma === true) {
+if (isPalindroma === true) {
     console.log ('Parola Palindroma')
 } else {
     console.log ('Parola non Palindroma')
